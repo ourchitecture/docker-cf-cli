@@ -12,3 +12,5 @@ RUN apt-get update \
     && curl -SL "https://cli.run.pivotal.io/stable?release=linux64-binary&version=${CLI_VERSION}&source=github" | tar -zx \
     && mv cf /usr/local/bin \
     && cf --version
+
+CMD ["cf"]
