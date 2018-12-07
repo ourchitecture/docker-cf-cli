@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie
+FROM buildpack-deps:stretch
 
 LABEL organization="Ourchitecture"
 LABEL license="MIT"
