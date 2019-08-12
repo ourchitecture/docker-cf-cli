@@ -2,9 +2,9 @@ FROM buildpack-deps:stretch
 
 LABEL organization="Ourchitecture"
 LABEL license="MIT"
-LABEL url="https://github.com/ourchitecture/docker-ibmcloud-cli"
+LABEL url="https://github.com/ourchitecture/docker-cf-cli"
 
-ARG CLI_VERSION="6.34.1"
+ARG CLI_VERSION="6.46.0"
 
 USER root
 
